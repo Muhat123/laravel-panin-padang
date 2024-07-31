@@ -24,7 +24,7 @@
                 <form action="/warga/{{$w->id}}" method="POST">
                     @csrf
                     @method('delete')
-                    <input type="submit" name="submit" value="delete" class="btn btn-outline-dark">
+                    <input type="submit" name="submit" value="Delete" class="btn btn-outline-dark">
                 </form>
             </td>
         </tr>
